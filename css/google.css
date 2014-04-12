@@ -30,3 +30,22 @@ a {
   color: black;
 }
 
+img{
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 150px;
+  left: 350px;
+}
+
+div#searchbox{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 345px;
+  left: 350px;
+}
+
+input{
+  width: 500px;
+}
