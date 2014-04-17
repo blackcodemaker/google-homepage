@@ -4,7 +4,7 @@
 <head>
   <title>Google</title>
   <link rel="stylesheet" href="css/google.css">
-  <link rel="stylesheet" href="css/normalize.css">
+<!--  <link rel="stylesheet" href="css/normalize.css">-->
 </head>
 
 <body>
@@ -13,35 +13,38 @@
       <li><a href="#">+You</a></li>
       <li><a href="#">Gmail</a></li>
       <li><a href="#">Images</a></li>
-      <button><li><a href="#">Sign In</a></li></button>
+      <a href="#"><img src="images/grid.png" alt="grid"></a>
+      <button id="signin"><li><a href="#">Sign In</a></li></button>
     </ul>
   </header>
 
 	<div>
-      <a href="#"><img src="images/percy-julians-115th-birthday-born-1899-5688801926053888-hp.jpg" alt="Google"></a>
+      <a href="#"><img src="images/logo11w.png" alt="Google"></a>
 	</div>
 
 	<div id="searchbox">
 		<p><input type="text"></p>
 	</div>
+
 	<div class="buttons">
 		<button  id="button1">
 			<a href="#">Google Search</a>
 		</button>
 
 		<button id="button2">
-			<p>Feeling Lucky</p>
+			<a href="#">Feeling Lucky</a>
 		</button>
 	</div>
   
     <footer>
-      <ul>
-          <li>Advertising</li>
-          <li>Business</li>
-          <li>About</li>
-          <li>Updated</li>
-          <li>Privacy &amp Terms</li>
-          <li>Settings</li>  
+      <ul id="lftmenu">
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul id="rgtmenu">
+          <li><a href="#">Privacy &amp Terms</a></li>
+          <li><a href="#">Settings</a></li> 
         </ul>
     </footer>
 </body>
